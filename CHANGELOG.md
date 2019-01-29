@@ -8,10 +8,10 @@ and this project adheres to [SemVer](http://semver.org/).
 ### Changed
 - Update and improvement.
 
-## 1.0.0 - 2019-01-27
+## 1.0.0 - 2019-01-29
 ### Added
-- pythagoras_test.cpp
-- thales_test.cpp
+- pythagoras_test.cpp (English/French demo)
+- thales_test.cpp (French demo)
 #### pythagoras.cpp / pythagoras.hpp
 - cal_hypotenuse
 - cal_other
