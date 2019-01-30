@@ -1,4 +1,4 @@
-[version]: https://img.shields.io/badge/Download-v1.0.0-blue.svg
+[version]: https://img.shields.io/badge/Download-v1.0.1-blue.svg
 [download]: https://github.com/kanekireal/LWMath/releases/latest
 [wiki]: https://img.shields.io/badge/Wiki-View-red.svg
 [license]: https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg

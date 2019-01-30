@@ -11,17 +11,11 @@
 
 #include <stdio.h>
 
-class LW {
+class IPythagoras {
 public:
-    class Math {
-    public:
-        class Pythagoras {
-        public:
-            static double cal_hypotenuse(double other_1, double other_2);
-            static double cal_other(double hypothenuse, double other);
-            static bool verify(double hypothenuse, double other_1, double other_2);
-        };
-    };
+    static float calculateHypotenuse(float knownSide1, float knownSide2);
+    static float calulateUnknownSide(float knownHypotenuse, float knownSide);
+    static bool verify(float knownHypotenuse, float knownSide1, float knownSide2);
 };
 
 #endif /* pythagore_hpp */

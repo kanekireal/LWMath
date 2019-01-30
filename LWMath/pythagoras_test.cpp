@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "Pythagoras/pythagoras.cpp"
+#include "lwmath.cpp"
 
 int main(int argc, const char * argv[]) {
     

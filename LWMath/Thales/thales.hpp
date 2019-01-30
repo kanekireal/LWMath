@@ -11,29 +11,11 @@
 
 #include <stdio.h>
 
-class LW {
+class IThales {
 public:
-    class Math {
-    public:
-        class Thales {
-        public:
-            //static double cal_hypotenuse(double other_1, double other_2);
-            //static double cal_other(double hypothenuse, double other);
-            static float cal_side_1(float same_side_1, float same_side_2, float other_side_1);
-            static float cal_side_2(float same_side_1, float same_side_2, float other_side_2);
-            static bool verify(float side_left_1, float side_left_2, float side_right_1, float side_right_2, float side_down_1, float side_down_2);
-        };
-    };
+    static float calculateUnknownNumerator(float knownFractionNumerator, float knownFractionDenominator, float knownDenominator);
+    static float calculateUnknownDenominator(float knownFractionNumerator, float knownFractionDenominator, float knownNumerator);
+    static bool verify(float knownFractionNumerator1, float knownFractionDenominator1, float knownFractionNumerator2, float knownFractionDenominator2, float knownFractionNumerator3, float knownFractionDenominator3);
 };
-
-static bool equals(float a, float b) {
-    const float delta = 0.00001;
-    return a >= b - delta && a <= b + delta;
-}
-
-static bool equals(float a, float b, float c) {
-    return equals(a, b) && equals(b, c);
-}
-
 
 #endif /* thales_hpp */

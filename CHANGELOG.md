@@ -8,6 +8,24 @@ and this project adheres to [SemVer](http://semver.org/).
 ### Changed
 - Update and improvement.
 
+## [1.0.1] - 2019-01-30
+### Added
+- lwmath.cpp
+- lwmath.hpp
+#### thales_test.cpp
+- English demo
+#### lwmath.cpp / lwmath.hpp
+- class LWMath
+- - Thales : IThales
+- - Pythagoras : IPythagoras
+### Removed
+- pythagoras.cpp
+- thales.cpp
+### Updated
+#### thales.hpp / pythagoras.hpp
+-  syntax improvement
+- IClass construct
+
 ## 1.0.0 - 2019-01-29
 ### Added
 - pythagoras_test.cpp (English/French demo)
@@ -22,3 +40,4 @@ and this project adheres to [SemVer](http://semver.org/).
 - verify
 
 [Unreleased]: https://github.com/kanekireal/LWMath/compare/v1.0.0-release...HEAD
+[1.0.1]: https://github.com/kanekireal/LWMath/compare/v1.0.0-release...v1.0.1-release
