@@ -39,5 +39,5 @@ and this project adheres to [SemVer](http://semver.org/).
 - cal_side_2
 - verify
 
-[Unreleased]: https://github.com/kanekireal/LWMath/compare/v1.0.0-release...HEAD
-[1.0.1]: https://github.com/kanekireal/LWMath/compare/v1.0.0-release...v1.0.1-release
+[Unreleased]: https://github.com/kanekireal/LWMath/compare/v1.0.0...HEAD
+[1.0.1]: https://github.com/kanekireal/LWMath/compare/v1.0.0...v1.0.1-release
